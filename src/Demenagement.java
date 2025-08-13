@@ -1,8 +1,16 @@
 import java.util.Scanner;
 /**
- * The main class of the program in Java
+ * Main class for the moving simulation program
+ * It asks the user for the total number of boxes and the truck's capacity
+ * then calculates and displays the number of trips required to complete the move
  */
 public class Demenagement {
+
+    /**
+     * The main entry point of the program.
+     * It handles user input for the total boxes and truck capacity,
+     * then prints the details of each trip required to complete the move
+     */
     public static void main (String[] args) {
         Scanner scan = new Scanner(System.in);
 
