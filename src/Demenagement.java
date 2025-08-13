@@ -10,6 +10,7 @@ public class Demenagement {
      * The main entry point of the program.
      * It handles user input for the total boxes and truck capacity,
      * then prints the details of each trip required to complete the move
+     * @param args command line arguments (not used)
      */
     public static void main (String[] args) {
         Scanner scan = new Scanner(System.in);
